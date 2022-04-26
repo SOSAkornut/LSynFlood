@@ -18,6 +18,7 @@ source = sys.argv[1]
 target = sys.argv[2]
 message = sys.argv[3]
 
+cprint("!! REMEMBER! Do not use this for illegal activities, this is meant only for pen testing with PERMISSION !!", "lightblue")
 cprint("[*] SynFlooding activated", "green")
 while True:
     synFlood(source, target, message)
